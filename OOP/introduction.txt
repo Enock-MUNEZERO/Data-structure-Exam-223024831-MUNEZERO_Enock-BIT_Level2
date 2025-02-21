@@ -1,0 +1,71 @@
+
+Explanation about code is going to be used in this assgniment.
+
+1. #include <iostream> is a preprocessor directive that tells the compiler to include the Input/Output Stream library before compiling the program.
+Breakdown:
+
+#include: This is a preprocessor command that includes the contents of a specified file into the program.
+
+<iostream>: This is the standard library file that contains declarations for input and output stream objects, such as:
+
+std::cin: Used for standard input (e.g., reading from the keyboard).
+
+std::cout: Used for standard output (e.g., printing to the console).
+
+std::cerr: Used for standard error output.
+
+std::clog: Used for logging purposes.
+
+2. using namespace std: cause naming conflicts in larger projects if different libraries have functions or classes with the same name.
+Good for: small programs, learning, and quick code And Avoid in: large codebases, libraries, or header files to prevent ambiguity.
+
+3. int main(): this is where the program starts, where
+
+int:
+Specifies the return type of the function.
+Here, int means the function will return an integer value to the operating system when the program finishes running.
+By convention, returning 0 indicates successful execution, while returning a non-zero value indicates an error.
+
+main:
+The name of the main function.
+Every C++ program must have one main function (unless it's a library without a main).
+
+():
+Parentheses indicate that main is a function.
+They can contain parameters, like int argc, char* argv[], to handle command-line arguments.
+
+4. cout :is an object used to output data to the console (standard output). 
+It’s part of the iostream library and belongs to the std (standard) namespace.(this work as data coded print)
+
+5. return 0: The main function in C++ has an int return type, which means it must return an integer(This ends the program successfully).
+This integer is an exit status code that tells the operating system (or calling process) how the program ended.
+
+6.if-else statement: this is fundamental control structure used for decision-making, 
+It allows a program to evaluate conditions and execute specific blocks of code based on whether those conditions are true or false.
+
+>if block: this checks a condition, if it's true, the code inside executes.
+
+>else block: can handle cases where none of the previous conditions are met, 
+acting as a default fallback. This structure enables flow control, making programs responsive to different inputs and scenarios.
+
+>else if block: check additional conditions.
+
+7. for: this is used in loopswhen you know the number of times you want to repeat a task.
+> int i = y; → Initializes the loop variable i to y. 
+> i <= x; → The loop runs while i is less than or equal to x. 
+> i++ → After each iteration, i is incremented by y. 
+
+8. while:this also is used in loops when you don’t know exactly how many times you want to repeat an action, 
+but you want to repeat it as long as a certain condition is true.
+
+9. do-while: is used in loop also where it is useful when you need to perform an action first and then check a condition, 
+such as displaying menus, taking user inputs repeatedly, or retrying operations. It continues looping until the condition becomes false.
+any more explanation Prompts the user at least once, Repeats until the user enters a positive number.
+
+10.function: is a block of code designed to perform a specific task. Functions help organize code, improve reusability, 
+and make programs easier to read and maintain. Instead of writing the same code multiple times, you can define a function once and call it whenever needed.
+
+> int add(int a, int b) :This is the function definition. It takes two integers, a and b, and returns an integer. 
+example: int sum = add(x,y); – This calls the add() function, passing x and y as arguments, and stores the result in sum.
+
+
