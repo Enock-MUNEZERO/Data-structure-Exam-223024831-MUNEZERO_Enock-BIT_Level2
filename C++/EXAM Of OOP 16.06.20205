@@ -1,0 +1,17 @@
+This project, titled Student Grade Calculator, 
+is a C++ application designed to manage student grade data using object-oriented programming (OOP) concepts. 
+It allows users to input a student's name and an arbitrary number of grades. 
+These grades are stored dynamically using pointers, allowing flexibility in handling varying numbers of inputs. 
+The program applies pointer arithmetic to access and process grade values directly in memory.
+
+To calculate performance metrics such as the average and minimum grade, the program uses a polymorphic design. 
+An abstract base class named GradeMetric defines a pure virtual function compute(), serving as a common interface. 
+Two child classes, AverageMetric and MinMetric, inherit from this base and implement their own versions of the compute function. 
+This design showcases core OOP principles like inheritance, polymorphism, and dynamic dispatch, 
+where the correct version of the compute function is determined at runtime through base class pointers.
+
+Additionally, the program supports dynamic management of the grades array through custom functions. 
+The addGrade() function resizes the grade array and inserts new values, 
+while a planned removeGrade() function (as specified in the requirements) will enable deletion of a grade by index. 
+Together, these features make the project a good demonstration of dynamic memory handling, interface-based design, 
+and modular coding practices, all within the context of a simple and practical student grading system.
