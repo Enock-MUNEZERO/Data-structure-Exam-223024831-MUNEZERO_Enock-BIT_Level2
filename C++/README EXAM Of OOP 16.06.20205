@@ -1,4 +1,4 @@
-This project, titled Student Grade Calculator, 
+This project is about Student Grade Calculator, 
 is a C++ application designed to manage student grade data using object-oriented programming (OOP) concepts. 
 It allows users to input a student's name and an arbitrary number of grades. 
 These grades are stored dynamically using pointers, allowing flexibility in handling varying numbers of inputs. 
